@@ -1,11 +1,11 @@
 {
-    "name": "{{data.name}}",
+    "name": "segmenter",
     "version": "0.0.0",
     "description": "{{data.description}}",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/astoilkov/{{data.name}}"
+        "url": "git+https://github.com/astoilkov/segmenter"
     },
     "funding": "https://github.com/sponsors/astoilkov",
     "author": {
@@ -14,7 +14,16 @@
         "url": "https://astoilkov.com"
     },
     "keywords": [
-        "{{data.keywords}}"
+        "char",
+        "character",
+        "charAt",
+        "charCodeAt",
+        "codePointAt",
+        "grapheme",
+        "word",
+        "sentence",
+        "Intl.Segmenter",
+        "Internationalization"
     ],
     "type": "module",
     "exports": {
