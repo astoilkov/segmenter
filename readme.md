@@ -32,26 +32,26 @@ wordRangeAt('hello-world') // { start: 0, end: 5 }
 
 ## API
 
-#### `graphemes`
+#### graphemes
 
 ##### `graphemeAt(string: string, position: number): string | undefined`
 
 ##### `graphemeRangeAt(string: string, position: number): { start: number; end: number; } | undefined`
 
-#### `graphemes(string: string): string[]`
+##### `graphemes(string: string): string[]`
 
-#### `words`
+#### words
 
 ##### `wordAt(string: string, position: number): string | undefined`
 
 ##### `wordRangeAt(string: string, position: number): { start: number; end: number; } | undefined`
 
-#### `words(string: string): string[]`
+##### `words(string: string): string[]`
 
-#### `sentences`
+#### sentences
 
 ##### `sentenceAt(string: string, position: number): string | undefined`
 
 ##### `sentenceRangeAt(string: string, position: number): { start: number; end: number; } | undefined`
 
-#### `sentences(string: string): string[]`
+##### `sentences(string: string): string[]`
