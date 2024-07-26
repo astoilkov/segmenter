@@ -37,22 +37,42 @@ wordRangeAt("hello-world"); // { start: 0, end: 5 }
 
 ##### `graphemeAt(string: string, position: number): string | undefined`
 
+Get the grapheme at `position` in `string`. Returns `undefined` if `position` is out of bounds or `string` is empty.
+
 ##### `graphemeRangeAt(string: string, position: number): { start: number; end: number; } | undefined`
 
+Get the `start` and `end` positions of the grapheme at `position` in `string`. Returns `undefined` if `position` is out of bounds or `string` is empty.
+
 ##### `graphemes(string: string): string[]`
+
+Get all graphemes in the `string` as `Array`.
 
 #### Words
 
 ##### `wordAt(string: string, position: number): string | undefined`
 
+Get the word at `position` in `string`. Returns `undefined` if `position` is out of bounds or `string` is empty.
+
 ##### `wordRangeAt(string: string, position: number): { start: number; end: number; } | undefined`
+
+Get the `start` and `end` positions of the word at `position` in `string`. Returns `undefined` if `position` is out of bounds or `string` is empty.
 
 ##### `words(string: string): string[]`
 
+Get all words in the `string` as `Array`.
+
 #### Sentences
+
+_Note: `Intl.Segmenter` doesn't do a perfect job of detecting sentences. For example, `I went to Dr. Smith's office` will be split into two sentences._
 
 ##### `sentenceAt(string: string, position: number): string | undefined`
 
+Get the sentence at `position` in `string`. Returns `undefined` if `position` is out of bounds or `string` is empty.
+
 ##### `sentenceRangeAt(string: string, position: number): { start: number; end: number; } | undefined`
 
+Get the `start` and `end` positions of the sentence at `position` in `string`. Returns `undefined` if `position` is out of bounds or `string` is empty.
+
 ##### `sentences(string: string): string[]`
+
+Get all sentences in the `string` as `Array`.
