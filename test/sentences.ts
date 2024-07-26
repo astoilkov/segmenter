@@ -22,5 +22,16 @@ describe("segmenter", () => {
                 "What are you doing today?",
             ]);
         });
+
+        test("sentences() with Mr.", () => {
+            expect(
+                sentences(
+                    "I went to Dr. Smith's office, and then I went to the store.",
+                ),
+            ).toEqual([
+                "I went to Dr. ",
+                "Smith's office, and then I went to the store.",
+            ]);
+        });
     });
 });
