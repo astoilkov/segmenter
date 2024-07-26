@@ -26,8 +26,11 @@ npm install {{data.name}}
 import { graphemeAt, graphemeRangeAt, wordAt, wordRangeAt } from "segmenter";
 
 graphemeAt("👨‍🔧️ the fixer", 3); // 👨‍🔧️
+
 graphemeRangeAt("👨‍🔧️ the fixer", 3); // { start: 0, end: 6 }
+
 wordAt("hello-world"); // "hello"
+
 wordRangeAt("hello-world"); // { start: 0, end: 5 }
 ```
 
