@@ -36,7 +36,7 @@ wordRangeAt("hello-world"); // { start: 0, end: 5 }
 
 ## API
 
-#### Graphemes
+### Graphemes
 
 ##### `graphemeAt(string: string, position: number): string | undefined`
 
@@ -50,7 +50,7 @@ Get the `start` and `end` positions of the grapheme at `position` in `string`. R
 
 Get all graphemes in the `string` as `Array`.
 
-#### Words
+### Words
 
 ##### `wordAt(string: string, position: number): string | undefined`
 
@@ -64,7 +64,7 @@ Get the `start` and `end` positions of the word at `position` in `string`. Retur
 
 Get all words in the `string` as `Array`.
 
-#### Sentences
+### Sentences
 
 _Note: `Intl.Segmenter` doesn't do a perfect job of detecting sentences. For example, `I went to Dr. Smith's office` will be split into two sentences._
 
