@@ -23,7 +23,9 @@
         "word",
         "sentence",
         "Intl.Segmenter",
-        "Internationalization"
+        "Internationalization",
+        "NLP",
+        "Natural Language Processing"
     ],
     "type": "module",
     "exports": {
