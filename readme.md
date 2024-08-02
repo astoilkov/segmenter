@@ -2,16 +2,14 @@
 
 > Work with grapheme, words, and sentences with small, simple, and fast API using `Intl.Segmenter`
 
-<!--
-[![Gzipped Size](https://img.shields.io/bundlephobia/minzip/{{data.name}})](https://bundlephobia.com/result?p={{data.name}})
-[![Build Status](https://img.shields.io/github/actions/workflow/status/astoilkov/{{data.name}}/main.yml?branch=main)](https://github.com/astoilkov/{{data.name}}/actions/workflows/main.yml)
+[![Gzipped Size](https://img.shields.io/bundlephobia/minzip/segmenter)](https://bundlephobia.com/result?p={{data.name}})
+[![Build Status](https://img.shields.io/github/actions/workflow/status/astoilkov/segmenter/main.yml?branch=main)](https://github.com/astoilkov/{{data.name}}/actions/workflows/main.yml)
 
 ## Install
 
 ```bash
-npm install {{data.name}}
+npm install segmenter
 ```
--->
 
 ## Why
 
