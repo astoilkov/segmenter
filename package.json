@@ -1,7 +1,7 @@
 {
     "name": "segmenter",
     "version": "2.0.0",
-    "description": "{{data.description}}",
+    "description": "Work with grapheme, words, and sentences with small, simple, and fast API using Intl.Segmenter",
     "license": "MIT",
     "repository": {
         "type": "git",
