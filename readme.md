@@ -15,8 +15,11 @@ npm install segmenter
 
 - `Intl.Segmenter` is supported in all major browsers and `94%` of users have it available — it's time for adoption.
 - If you have a use case other than iterating over all graphemes/words/sentences in a text, then `Intl.Segmenter` might be a little hard to work with.
-- In many cases, working with [graphemes](https://en.wikipedia.org/wiki/Grapheme) is preferable to characters. Graphemes are what the end user sees. For example, the emoji `👨‍🔧️` is a single grapheme but consists of 6 characters. `for` loop will make 6 iterations, `for of` looping `👨‍🔧️` will make 4 iterations — it's confusing, just use graphemes.
-- Before `Intl.Segmenter`, working with graphemes required libraries like [`graphemer`](https://bundlephobia.com/package/graphemer@1.4.0) that is `94KB` in size.
+- In many cases, working with [graphemes](https://en.wikipedia.org/wiki/Grapheme) is preferable to characters. Graphemes are what the end user sees. For example, the emoji `👨‍🔧️` is:
+    - a single grapheme
+    - `'👨‍🔧️'.length` returns `6`
+    - `for of` looping `👨‍🔧️` will make `4` iterations
+- Before `Intl.Segmenter`, working with graphemes required libraries like [`graphemer`](https://bundlephobia.com/package/graphemer@1.4.0) which is `94KB` in size.
 
 ## Usage
 
