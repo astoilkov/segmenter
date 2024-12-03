@@ -26,13 +26,15 @@ npm install segmenter
 ```ts
 import { graphemeAt, graphemeRangeAt, wordAt, wordRangeAt } from "segmenter";
 
-graphemeAt("👨‍🔧️ the fixer", 3); // 👨‍🔧️
+graphemeAt("👨‍🔧️ the fixer", 0); // 👨‍🔧️
+graphemeAt("👨‍🔧️ the fixer", 5); // 👨‍🔧️
 
+graphemeRangeAt("👨‍🔧️ the fixer", 0); // { start: 0, end: 6 }
 graphemeRangeAt("👨‍🔧️ the fixer", 3); // { start: 0, end: 6 }
 
-wordAt("hello-world"); // "hello"
+wordAt("hello-world", 0); // "hello"
 
-wordRangeAt("hello-world"); // { start: 0, end: 5 }
+wordRangeAt("hello-world", 0); // { start: 0, end: 5 }
 ```
 
 ## API
